@@ -1024,42 +1024,149 @@
         "166442457738b23caf-0": {
           "type": "item",
           "settings": {
-            "title": "Do you ship overseas?",
-            "content": "<p>Yes, we ship all over the world. Shipping costs will apply, and will be added at checkout. We run discounts and promotions all year, so stay tuned for exclusive deals.</p>"
+            "title": "Qual è la durata della colorazione?",
+            "content": "<p>Dipende dal tipo di capelli e dalla frequenza dei lavaggi, ma <strong>Polra Milano</strong> di solito dura tra le 4 e le 6 settimane.</p>"
           }
         },
         "166442457738b23caf-1": {
           "type": "item",
           "settings": {
-            "title": "How long will it take to get my orders?",
-            "content": "<p>It depends on where you are. Orders processed here will take 5-7 business days to arrive. Overseas deliveries can take anywhere from 7-16 days. Delivery details will be provided in your confirmation email.</p>"
+            "title": "Quanto dura un flacone?",
+            "content": "<p>Un flacone del nostro shampoo colorante istantaneo permette circa da 10 a 15 applicazioni, a seconda della lunghezza e dello spessore dei capelli.</p>"
           }
         },
         "166442457738b23caf-2": {
           "type": "item",
           "settings": {
-            "title": "Any question?",
-            "content": "<p>You can contact us through our contact page! We will be happy to assist you.</p>"
+            "title": "È adatto a tutti i tipi di capelli?",
+            "content": "<p>Sì, <strong>Polra</strong> è adatto a tutti i tipi di capelli, dai più fini ai più spessi. La sua texture in formato shampoo consente un’applicazione facile dalla radice alle punte.</p>"
+          }
+        },
+        "item_ndEeDn": {
+          "type": "item",
+          "settings": {
+            "title": "Ci sono rischi di allergia o precauzioni per pelli sensibili?",
+            "content": "<p>Il nostro shampoo colorante è formulato senza PPD, senza ammoniaca, senza resorcina né ossidanti aggressivi, ingredienti comunemente responsabili di reazioni allergiche nelle colorazioni tradizionali.<br/><br/>Per questo è molto più tollerato dai cuoi capelluti sensibili ed è ideale per chi cerca un’alternativa più delicata.<br/><br/>👉 Tuttavia, come per qualsiasi prodotto cosmetico, si consiglia di effettuare un test di tolleranza 24 ore prima del primo utilizzo:<br/><br/>Applica una piccola quantità dietro l’orecchio o nella piega del gomito, lascia agire 10 minuti, risciacqua e osserva la zona per 24 ore.<br/><br/>In caso di dubbio o di allergia nota, non esitare a chiederci la lista INCI completa della tonalità che ti interessa. 💌<br/><br/></p>"
+          }
+        },
+        "item_c9CMJn": {
+          "type": "item",
+          "settings": {
+            "title": "Devo usare i guanti?",
+            "content": "<p>No, non è necessario usare i guanti per applicare lo shampoo colorante <strong>Polra</strong>.</p>"
+          }
+        },
+        "item_dyE8qx": {
+          "type": "item",
+          "settings": {
+            "title": "Lo shampoo lascia macchie?",
+            "content": "<p><strong>Polra</strong> non lascia macchie sulla pelle o sul cuoio capelluto e si rimuove facilmente da superfici come lavabi o vasche da bagno. Tuttavia, sconsigliamo l’uso di tessuti bianchi durante l’applicazione.</p>"
+          }
+        },
+        "item_BqaadT": {
+          "type": "item",
+          "settings": {
+            "title": "Posso usarlo con i miei prodotti per capelli abituali?",
+            "content": "<p>Consigliamo di continuare a usare i tuoi shampoo e trattamenti abituali tra un’applicazione e l’altra di <strong>Polra</strong>. Puoi applicare un balsamo subito dopo l’uso.</p><p></p>"
+          }
+        },
+        "item_KLYjGY": {
+          "type": "item",
+          "settings": {
+            "title": "È sicuro per i miei capelli?",
+            "content": "<p>Assolutamente! Il nostro shampoo è formulato con ingredienti naturali e senza sostanze chimiche aggressive, offrendo una protezione delicata per i tuoi capelli e il cuoio capelluto.</p>"
+          }
+        },
+        "item_4VpYmq": {
+          "type": "item",
+          "settings": {
+            "title": "Copre completamente i capelli bianchi?",
+            "content": "<p>Sì, <strong>Polra</strong> è progettato per coprire i capelli bianchi in modo uniforme e naturale. Un uso regolare ne rinforza la profondità e l’intensità del colore.</p>"
+          }
+        },
+        "item_R76bCH": {
+          "type": "item",
+          "settings": {
+            "title": "Si può usare su capelli già tinti o trattati chimicamente?",
+            "content": "<p>Sì, il nostro shampoo è sicuro per capelli tinti o trattati chimicamente. In caso di dubbio, effettua una prova o consulta un professionista.</p>"
+          }
+        },
+        "item_RkhrC9": {
+          "type": "item",
+          "settings": {
+            "title": "Si possono mescolare due colori?",
+            "content": "<p>Sì, puoi mescolare due tonalità di <strong>Polra</strong> per creare un colore personalizzato. Fallo in un contenitore pulito prima di applicarlo sui capelli.</p>"
+          }
+        },
+        "item_zkPpY3": {
+          "type": "item",
+          "settings": {
+            "title": "Posso applicarlo solo sulle radici?",
+            "content": "<p>Sì, puoi applicarlo unicamente sulle radici per ritoccare il colore senza tingere tutta la chioma.</p>"
+          }
+        },
+        "item_q4gMer": {
+          "type": "item",
+          "settings": {
+            "title": "Il prodotto ha un odore forte?",
+            "content": "<p>No, il nostro shampoo ha una fragranza delicata e piacevole. Non contiene ammoniaca né odori chimici aggressivi.</p>"
+          }
+        },
+        "item_RWxEPL": {
+          "type": "item",
+          "settings": {
+            "title": "Quali sono i tempi di consegna?",
+            "content": "<p>Italia: tra 5 e 15 giorni lavorativi.</p>"
+          }
+        },
+        "item_9T46HH": {
+          "type": "item",
+          "settings": {
+            "title": "Come posso tracciare il mio ordine?",
+            "content": "<p>Una volta spedito, riceverai un’e-mail con un link di tracciamento. Puoi anche consultare la scheda <strong>“Segui il mio ordine”</strong> sul nostro sito web.</p>"
+          }
+        },
+        "item_EHQK4n": {
+          "type": "item",
+          "settings": {
+            "title": "Posso restituire il mio prodotto?",
+            "content": "<p>Sì, approfitta della nostra garanzia “Soddisfatto o rimborsato” entro 30 giorni. Se non sei soddisfatto(a), contattaci a <a><strong>contact@polra-milano.com</strong></a>.<br/></p>"
           }
         }
       },
       "block_order": [
         "166442457738b23caf-0",
         "166442457738b23caf-1",
-        "166442457738b23caf-2"
+        "166442457738b23caf-2",
+        "item_ndEeDn",
+        "item_c9CMJn",
+        "item_dyE8qx",
+        "item_BqaadT",
+        "item_KLYjGY",
+        "item_4VpYmq",
+        "item_R76bCH",
+        "item_RkhrC9",
+        "item_zkPpY3",
+        "item_q4gMer",
+        "item_RWxEPL",
+        "item_9T46HH",
+        "item_EHQK4n"
+      ],
+      "custom_css": [
+        ".section-full {padding-top: 20px; padding-bottom: 20px;}"
       ],
       "settings": {
         "full_width": false,
         "subheading": "",
-        "title": "FAQ",
-        "content": "<p>Use this text to share information about your product or shipping policies.</p>",
+        "title": "Hai dubbi?",
+        "content": "",
         "team_avatar_width": 160,
-        "support_hours": "Our customer support is available Monday to Friday: 8am-8:30pm.",
-        "answer_time": "Average answer time: 24h",
+        "support_hours": "",
+        "answer_time": "",
         "button_text": "",
         "button_url": "",
         "text_position": "start",
-        "background": "#ffffff",
+        "background": "#f0f0f0",
         "background_gradient": "",
         "text_color": "",
         "heading_color": "",
