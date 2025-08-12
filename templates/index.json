@@ -908,6 +908,116 @@
         "background_gradient": ""
       }
     },
+    "rich_text_yNMqLb": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_d9PYWp": {
+          "type": "heading",
+          "settings": {
+            "text": "Come si usa?",
+            "heading_tag": "h3",
+            "text_color": "",
+            "gradient": ""
+          }
+        }
+      },
+      "block_order": [
+        "heading_d9PYWp"
+      ],
+      "custom_css": [
+        ".section-full {padding-top: 20px; padding-bottom: 20px;}"
+      ],
+      "name": "Rich text",
+      "settings": {
+        "full_width": true,
+        "content_width": "small",
+        "text_position": "center",
+        "background": "",
+        "background_gradient": "",
+        "text_color": ""
+      }
+    },
+    "nonuveaute_bhKjtg": {
+      "type": "nonuveaute",
+      "blocks": {
+        "step_tJ6UTc": {
+          "type": "step",
+          "settings": {
+            "video": "shopify://files/videos/etape1.mp4",
+            "title": "Dosare",
+            "description": "Premi la pompa per ottenere la quantità necessaria di prodotto nel palmo della mano.",
+            "alignment": "left"
+          }
+        },
+        "step_73wDnY": {
+          "type": "step",
+          "settings": {
+            "video": "shopify://files/videos/etape3.mp4",
+            "title": "Applicare",
+            "description": "Usa lo shampoo sui capelli asciutti, distribuendolo in modo uniforme.",
+            "alignment": "left"
+          }
+        },
+        "step_FxUreP": {
+          "type": "step",
+          "settings": {
+            "video": "shopify://files/videos/etape4.mp4",
+            "title": "Risciacquare",
+            "description": "Sciacqua con abbondante acqua. Scopri il tuo nuovo colore radioso!",
+            "alignment": "left"
+          }
+        }
+      },
+      "block_order": [
+        "step_tJ6UTc",
+        "step_73wDnY",
+        "step_FxUreP"
+      ],
+      "name": "How to Use",
+      "settings": {}
+    },
+    "slideshow_RDNTpr": {
+      "type": "slideshow",
+      "blocks": {
+        "image_jbpwd3": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Votre_texte_de_paragraphe_1_fc83545b-05ce-49ab-9df8-48d79f7f5452.png",
+            "content_max_width": 780,
+            "mobile_text_position": "place-self-center text-center",
+            "desktop_text_position": "sm:place-self-center sm:text-center",
+            "subheading": "",
+            "title": "",
+            "heading_tag": "h0",
+            "button_text": "",
+            "button_link": "",
+            "text_color": "#ffffff",
+            "button_background": "#ffffff",
+            "button_text_color": "#000000",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0,
+            "background": "",
+            "background_gradient": ""
+          }
+        }
+      },
+      "block_order": [
+        "image_jbpwd3"
+      ],
+      "name": "Slideshow",
+      "settings": {
+        "full_width": true,
+        "allow_transparent_header": true,
+        "show_initial_transition": false,
+        "image_size": "auto",
+        "controls_type": "dots",
+        "transition_type": "fade_with_text",
+        "autoplay": false,
+        "cycle_speed": 6,
+        "background": "#F2F2F2",
+        "background_gradient": ""
+      }
+    },
     "faq": {
       "type": "faq",
       "blocks": {
@@ -979,6 +1089,9 @@
     "multi_column_QnYRXq",
     "rich_text_RyJyFg",
     "slideshow_tBJnhG",
+    "rich_text_yNMqLb",
+    "nonuveaute_bhKjtg",
+    "slideshow_RDNTpr",
     "faq"
   ]
 }
