@@ -207,14 +207,149 @@
         "text_color": ""
       }
     },
-    "custom_liquid_7wUWKA": {
-      "type": "custom-liquid",
-      "name": "Custom Liquid",
+    "slideshow_cK33kn": {
+      "type": "slideshow",
+      "blocks": {
+        "image_AGCytD": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Votre_texte_de_paragraphe.png",
+            "content_max_width": 780,
+            "mobile_text_position": "place-self-center text-center",
+            "desktop_text_position": "sm:place-self-center sm:text-center",
+            "subheading": "",
+            "title": "",
+            "heading_tag": "h0",
+            "button_text": "",
+            "button_link": "",
+            "text_color": "#ffffff",
+            "button_background": "#ffffff",
+            "button_text_color": "#000000",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0,
+            "background": "",
+            "background_gradient": ""
+          }
+        }
+      },
+      "block_order": [
+        "image_AGCytD"
+      ],
+      "name": "Slideshow",
       "settings": {
         "full_width": true,
-        "remove_vertical_spacing": false,
-        "remove_horizontal_spacing": false,
-        "liquid": "<p style=\"text-align: center\">Write or copy/paste Liquid code</p>",
+        "allow_transparent_header": true,
+        "show_initial_transition": false,
+        "image_size": "auto",
+        "controls_type": "dots",
+        "transition_type": "fade_with_text",
+        "autoplay": false,
+        "cycle_speed": 6,
+        "background": "#F2F2F2",
+        "background_gradient": ""
+      }
+    },
+    "multi_column_D4q9Pr": {
+      "type": "multi-column",
+      "blocks": {
+        "item_jK93Mf": {
+          "type": "item",
+          "settings": {
+            "image": "shopify://shop_images/testib.png",
+            "column_size": "3",
+            "title": "Martina",
+            "heading_tag": "h4",
+            "content": "<p>È facilissimo! L’ho usato proprio come uno shampoo normale, senza guanti e senza sporcare nulla. In 10 minuti avevo già il mio colore perfetto. Una meraviglia!</p>",
+            "link_url": "",
+            "link_text": "",
+            "link_style": "link"
+          }
+        },
+        "item_66Q3UT": {
+          "type": "item",
+          "settings": {
+            "image": "shopify://shop_images/testi7.jpg",
+            "column_size": "3",
+            "title": "Maria Carmela",
+            "heading_tag": "h4",
+            "content": "<p>Avevo tanti capelli bianchi e dubitavo che uno shampoo potesse coprirli. Ma mi ha sorpreso tantissimo! Con una sola applicazione, i miei capelli hanno ritrovato il loro colore naturale e brillante. Non resta traccia di capelli bianchi. Lo consiglio al 100%!</p>",
+            "link_url": "",
+            "link_text": "",
+            "link_style": "link"
+          }
+        },
+        "item_f4aUym": {
+          "type": "item",
+          "settings": {
+            "image": "shopify://shop_images/testi8.jpg",
+            "column_size": "3",
+            "title": "Lucia",
+            "heading_tag": "h4",
+            "content": "<p>Pensavo che il colore sarebbe svanito in fretta, ma sono già passate tre settimane ed è ancora intenso e bellissimo. Inoltre, i miei capelli sono morbidi e non secchi come con altre tinture. Sono entusiasta!</p>",
+            "link_url": "",
+            "link_text": "",
+            "link_style": "link"
+          }
+        },
+        "item_adnbat": {
+          "type": "item",
+          "settings": {
+            "image": "shopify://shop_images/testi9.jpg",
+            "column_size": "3",
+            "title": "Isabella",
+            "heading_tag": "h4",
+            "content": "<p>Ho il cuoio capelluto molto sensibile, quindi avevo paura di usare una tinta. Questo shampoo è delicato, senza odore forte e senza sostanze chimiche aggressive. I miei capelli sono più sani che mai e con un colore stupendo.</p>",
+            "link_url": "",
+            "link_text": "",
+            "link_style": "link"
+          }
+        },
+        "item_ALQzFk": {
+          "type": "item",
+          "settings": {
+            "image": "shopify://shop_images/testia.png",
+            "column_size": "3",
+            "title": "Sofia",
+            "heading_tag": "h4",
+            "content": "<p>I miei capelli erano molto secchi e senza vita, ma questo prodotto non solo ha coperto i capelli bianchi, ha anche ridato loro lucentezza. Sembra che sia appena uscita dal parrucchiere.</p>",
+            "link_url": "",
+            "link_text": "",
+            "link_style": "link"
+          }
+        },
+        "item_parCfW": {
+          "type": "item",
+          "settings": {
+            "column_size": "3",
+            "title": "Elena",
+            "heading_tag": "h4",
+            "content": "<p>Avevo usato tinte chimiche in passato e non sapevo se questo shampoo avrebbe funzionato sopra. Mi ha stupito: copre perfettamente e il colore è uniforme, senza macchie. Molto felice del risultato!</p>",
+            "link_url": "",
+            "link_text": "",
+            "link_style": "link"
+          }
+        }
+      },
+      "block_order": [
+        "item_jK93Mf",
+        "item_66Q3UT",
+        "item_f4aUym",
+        "item_adnbat",
+        "item_ALQzFk",
+        "item_parCfW"
+      ],
+      "custom_css": [
+        ".section-full {padding-top: 00px; padding-bottom: 30px;}"
+      ],
+      "name": "Multi-column",
+      "settings": {
+        "full_width": true,
+        "stack_on_mobile": false,
+        "gap": "medium",
+        "text_alignment": "center",
+        "subheading": "",
+        "title": "",
+        "content": "",
         "background": "",
         "background_gradient": "",
         "text_color": ""
@@ -281,7 +416,8 @@
     "rich_text_8rkqJa",
     "video_HUHzPE",
     "rich_text_fbqinW",
-    "custom_liquid_7wUWKA",
+    "slideshow_cK33kn",
+    "multi_column_D4q9Pr",
     "faq"
   ]
 }
