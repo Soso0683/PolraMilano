@@ -412,20 +412,40 @@
             "size_chart_page": ""
           }
         },
+        "liquid_CeGUUd": {
+          "type": "liquid",
+          "settings": {
+            "liquid": "{% assign uid = 'stock-' | append: 'now' | date: '%s' %}\n\n<div id=\"{{ uid }}\" class=\"stock-de\">\n  <span class=\"stock-de__dot\" aria-hidden=\"true\"></span>\n  <strong>Restano: 4 unità</strong>\n</div>\n\n<style>\n  /* Scope */\n  #{{ uid }}.stock-de{\n    padding:0 !important;\n    margin:0;\n    display:inline-flex;\n    align-items:center;\n    gap:8px;\n    color:#111;\n    font-family:inherit;\n    line-height:1.2;\n  }\n  #{{ uid }} .stock-de__dot{\n    width:10px; height:10px; border-radius:50%;\n    background: radial-gradient(circle at 30% 30%, #ffa61d 0%, #f7c33b 55%, #e7133f 100%);\n    box-shadow: 0 0 0 6px rgba(247, 195, 59, 0.18);\n    flex:0 0 auto;\n    animation: stockPulse 1.6s ease-in-out infinite;\n    transform-origin: center;\n  }\n\n  @keyframes stockPulse {\n    0%, 100% { transform: scale(1); }\n    50% { transform: scale(1.25); }\n  }\n</style>"
+          }
+        },
         "buy_buttons_U3GiG9": {
           "type": "buy_buttons",
           "settings": {
-            "show_payment_button": true,
-            "show_gift_card_recipient": true,
+            "show_payment_button": false,
+            "show_gift_card_recipient": false,
             "atc_button_background": "",
             "atc_button_text_color": "",
             "payment_button_background": "",
             "payment_button_text_color": ""
           }
         },
-        "pickup_availability_3HKiUC": {
-          "type": "pickup_availability",
-          "settings": {}
+        "liquid_Fd7U3y": {
+          "type": "liquid",
+          "settings": {
+            "liquid": "<div class=\"payment-methods-wrapper\">\n  <div class=\"payment-icons\">\n    <!-- AMERICAN EXPRESS -->\n    <div class=\"payment-icon\">\n      {{ 'american_express' | payment_type_svg_tag: class: 'amex-icon' }}\n    </div>\n    \n    <!-- APPLE PAY -->\n    <div class=\"payment-icon\">\n      {{ 'apple_pay' | payment_type_svg_tag: class: 'apple-icon' }}\n    </div>\n  \n    <!-- MASTERCARD -->\n    <div class=\"payment-icon\">\n      {{ 'master' | payment_type_svg_tag: class: 'mastercard-icon' }}\n    </div>\n    \n    <!-- PAYPAL -->\n    <div class=\"payment-icon\">\n      {{ 'paypal' | payment_type_svg_tag: class: 'paypal-icon' }}\n    </div>\n    \n    <!-- VISA -->\n    <div class=\"payment-icon\">\n      {{ 'visa' | payment_type_svg_tag: class: 'visa-icon' }}\n    </div>\n  </div>\n</div>\n\n<style>\n  .payment-methods-wrapper {\n    display: flex;\n    justify-content: center;\n    padding: 0; /* Padding supprimé */\n    margin-top: -8px; /* Décalage négatif pour coller au bloc précédent */\n  }\n  \n  .payment-icons {\n    display: inline-flex;\n    flex-wrap: wrap;\n    justify-content: center;\n    align-items: center;\n    gap: 12px; /* Espacement réduit entre les icônes */\n    max-width: 100%;\n    padding: 4px 0; /* Petit padding interne vertical */\n  }\n  \n  .payment-icon {\n    display: flex;\n    align-items: center;\n    justify-content: center;\n    height: 28px; /* Hauteur légèrement réduite */\n    min-width: 45px; /* Largeur minimale réduite */\n  }\n  \n  .payment-icon svg {\n    height: 100%;\n    width: auto;\n    max-width: 60px; /* Largeur maximale réduite */\n    display: block;\n  }\n  \n  /* Ajustements d'alignement */\n  .apple-icon, .paypal-icon, .mastercard-icon {\n    transform: translateY(-1px);\n  }\n  \n  @media (max-width: 600px) {\n    .payment-icons {\n      gap: 8px; /* Espacement encore plus réduit sur mobile */\n    }\n    \n    .payment-icon {\n      height: 24px; /* Hauteur réduite sur mobile */\n      min-width: 40px; /* Largeur minimale réduite sur mobile */\n    }\n    \n    .payment-icon svg {\n      max-width: 50px; /* Largeur maximale réduite sur mobile */\n    }\n  }\n</style>"
+          }
+        },
+        "liquid_fPiU8A": {
+          "type": "liquid",
+          "settings": {
+            "liquid": "{% assign now_s = 'now' | date: '%s' %}\n{% assign uid = 'badge-' | append: now_s %}\n\n<div id=\"{{ uid }}\" class=\"de-badges\">\n  <!-- Titre au-dessus (camion + texte) -->\n  <div class=\"de-badges__title\">\n    <svg class=\"de-ico\" viewBox=\"0 0 24 24\" aria-hidden=\"true\" width=\"20\" height=\"20\">\n      <path fill=\"currentColor\" d=\"M3 7h11v7h3l2 2v1H17a2 2 0 1 1-4 0H9a2 2 0 1 1-4 0H3V8c0-.6.4-1 1-1zm16 5h-3V9h2l1 2v1z\"/>\n    </svg>\n    <span>Spedizione gratuita</span>\n  </div>\n\n  <!-- Deux badges centrés -->\n  <div class=\"de-badges__row\">\n    <span class=\"badge badge--green\">\n      <svg class=\"badge__icon\" viewBox=\"0 0 24 24\" width=\"16\" height=\"16\" aria-hidden=\"true\">\n        <path fill=\"currentColor\" d=\"M12 2a4 4 0 0 0-4 4v2H6a2 2 0 0 0-2 2v8a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2v-8a2 2 0 0 0-2-2h-2V6a4 4 0 0 0-4-4zm-2 6V6a2 2 0 1 1 4 0v2h-4z\"/>\n      </svg>\n      <span>30 giorni soddisfatto o rimborsato</span>\n    </span>\n\n    <span class=\"badge badge--red\">\n      <!-- Point clignotant -->\n      <span class=\"badge__dot\" aria-hidden=\"true\"></span>\n      <span>Stock basso!</span>\n    </span>\n  </div>\n</div>\n\n<style>\n  /* Conteneur global centré */\n  #{{ uid }}.de-badges{\n    font-family:inherit; color:#111;\n    display:flex; flex-direction:column; align-items:center; gap:10px;\n  }\n\n  /* Titre camion au-dessus */\n  #{{ uid }} .de-badges__title{\n    display:flex; align-items:center; justify-content:center; gap:8px;\n    font-weight:600; font-size:15px;\n  }\n  #{{ uid }} .de-ico{ opacity:.9; }\n\n  /* Deux badges alignés horizontalement et centrés */\n  #{{ uid }} .de-badges__row{\n    display:flex; justify-content:center; align-items:center; gap:10px; flex-wrap:wrap;\n  }\n\n  /* Styles des badges */\n  #{{ uid }} .badge{\n    display:inline-flex; align-items:center; gap:8px;\n    padding:8px 12px; border-radius:10px;\n    font-size:13px; font-weight:700; line-height:1;\n    border:1px solid transparent; white-space:nowrap;\n  }\n  #{{ uid }} .badge--green{ background:#EAF7E8; color:#14532d; border-color:#CBEAD1; }\n  #{{ uid }} .badge--red{   background:#FCE8E7; color:#B42318; border-color:#F5C2C0; }\n\n  #{{ uid }} .badge__icon{ flex:0 0 auto; display:block; }\n\n  /* Point clignotant (utilise la couleur du badge rouge) */\n  #{{ uid }} .badge__dot{\n    width:10px; height:10px; border-radius:50%;\n    background: currentColor; display:inline-block;\n    box-shadow: 0 0 0 0 currentColor;\n    animation: {{ uid }}-blink 1.1s ease-in-out infinite;\n  }\n  @keyframes {{ uid }}-blink{\n    0%, 100% { opacity:1; transform:scale(1); box-shadow:0 0 0 0 currentColor; }\n    50%      { opacity:.35; transform:scale(.85); box-shadow:0 0 0 4px rgba(180,35,24,.15); }\n  }\n\n  /* Accessibilité : ralentir si motion réduit */\n  @media (prefers-reduced-motion: reduce){\n    #{{ uid }} .badge__dot{ animation-duration: 2.2s; }\n  }\n</style>"
+          }
+        },
+        "liquid_9qpQ4f": {
+          "type": "liquid",
+          "settings": {
+            "liquid": "{% assign now_s = 'now' | date: '%s' %}\n{% assign tl2id = 'tl2-' | append: now_s %}\n\n<div id=\"{{ tl2id }}\" class=\"tl2de\" data-ship=\"2\">\n  <div class=\"tl2de__line\" aria-hidden=\"true\"></div>\n\n  <!-- Étape 1 -->\n  <div class=\"tl2de__step\">\n    <div class=\"tl2de__dot\">\n      <img class=\"tl2de__icon\"\n           src=\"https://cdn.shopify.com/s/files/1/0915/5123/6475/files/Capture_d_ecran_2025-08-10_054315_ca3eda7c-c44f-4188-a770-740919ab85d4.webp?v=1754948644\"\n           alt=\"Bestellt\">\n    </div>\n    <div class=\"tl2de__date\" data-role=\"order\">–</div>\n    <div class=\"tl2de__label\">Ordine</div>\n  </div>\n\n  <!-- Étape 2 -->\n  <div class=\"tl2de__step\">\n    <div class=\"tl2de__dot\">\n      <img class=\"tl2de__icon\"\n           src=\"https://cdn.shopify.com/s/files/1/0915/5123/6475/files/Capture_d_ecran_2025-08-10_054424.webp?v=1754948735\"\n           alt=\"Versandt\">\n    </div>\n    <div class=\"tl2de__date\" data-role=\"ship\">–</div>\n    <div class=\"tl2de__label\">Spedito</div>\n  </div>\n</div>\n\n<style>\n  /* Scope par ID */\n  #{{ tl2id }}.tl2de{\n    --dot: 22px;     /* diamètre des ronds réduit */\n    --icon: 28px;    /* taille des logos augmentée */\n    --line: 3px;     \n    --edge: 18px;    \n    --fs-date: 13px;\n    --fs-label: 12px;\n    --black: #111;\n\n    color:#111; font-family:inherit;\n    display:grid; grid-template-columns:repeat(2, 1fr);\n    align-items:start; justify-items:center;\n    gap:0; position:relative;\n    margin: 6px 0;\n  }\n\n  /* Barre horizontale */\n  #{{ tl2id }} .tl2de__line{\n    position:absolute;\n    left:calc(var(--dot)/2 + var(--edge));\n    right:calc(var(--dot)/2 + var(--edge));\n    top:calc(var(--dot)/2 - var(--line)/2);\n    height:var(--line); background:var(--black);\n    z-index:0;\n  }\n\n  /* Étapes */\n  #{{ tl2id }} .tl2de__step{\n    display:flex; flex-direction:column;\n    align-items:center; text-align:center;\n  }\n\n  /* Rond */\n  #{{ tl2id }} .tl2de__dot{\n    width:var(--dot); height:var(--dot);\n    border-radius:50%;\n    background:var(--black);\n    display:grid; place-items:center;\n    overflow:hidden; position:relative;\n    z-index:1;\n  }\n\n  /* Logo */\n  #{{ tl2id }} .tl2de__icon{\n    width:var(--icon); height:var(--icon);\n    object-fit:contain; display:block;\n  }\n\n  /* Date */\n  #{{ tl2id }} .tl2de__date{\n    margin-top:10px;\n    font-weight:700;\n    font-size:var(--fs-date);\n  }\n\n  /* Libellé */\n  #{{ tl2id }} .tl2de__label{\n    font-size:var(--fs-label);\n    color:#5e5e5e;\n    margin-top:2px;\n  }\n\n  /* Responsive */\n  @media (max-width:600px){\n    #{{ tl2id }}.tl2de{\n      --dot: 45px; \n      --icon: 30px; \n      --fs-date: 15px; \n      --fs-label: 11px; \n      --edge: 14px; \n    }\n  }\n</style>\n\n<script>\n(function(){\n  const root = document.getElementById('{{ tl2id }}'); \n  if(!root) return;\n\n  const ship = +root.dataset.ship || 2;\n  const today = new Date();\n  const addDays = (d,n)=>{ const x=new Date(d); x.setDate(x.getDate()+n); return x; };\n\n  // Abréviations ES\n  const MONTH_ABBR = ['Ene.', 'Feb.', 'Mar.', 'Abr.', 'May.', 'Jun.', 'Jul.', 'Ago.', 'Sept.', 'Oct.', 'Nov.', 'Dic.'];\n\n  function fmtAbbrev(date){\n    const d = new Date(date);\n    const day = new Intl.DateTimeFormat('es-ES', { day:'numeric' }).format(d);\n    const abbr = MONTH_ABBR[d.getMonth()];\n    return `${day} ${abbr}`;\n  }\n\n  root.querySelector('[data-role=\"order\"]').textContent = fmtAbbrev(today);\n  root.querySelector('[data-role=\"ship\"]').textContent  = fmtAbbrev(addDays(today, ship));\n})();\n</script>"
+          }
         }
       },
       "block_order": [
@@ -437,8 +457,11 @@
         "image_XVjUwk",
         "description_CKtNNb",
         "variant_picker_7ATp8m",
+        "liquid_CeGUUd",
         "buy_buttons_U3GiG9",
-        "pickup_availability_3HKiUC"
+        "liquid_Fd7U3y",
+        "liquid_fPiU8A",
+        "liquid_9qpQ4f"
       ],
       "name": "Featured product",
       "settings": {
