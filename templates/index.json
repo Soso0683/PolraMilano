@@ -320,6 +320,7 @@
         "item_parCfW": {
           "type": "item",
           "settings": {
+            "image": "shopify://shop_images/testi6avant.jpg",
             "column_size": "3",
             "title": "Elena",
             "heading_tag": "h4",
