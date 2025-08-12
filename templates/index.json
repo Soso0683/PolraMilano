@@ -484,6 +484,235 @@
         "input_text_color": ""
       }
     },
+    "tabs_haDBGV": {
+      "type": "tabs",
+      "blocks": {
+        "tab_VyLMFa": {
+          "type": "tab",
+          "settings": {
+            "title": "📦 Shampoo colorante istantaneo",
+            "content": "<p><br/>✔️ Copre i capelli bianchi in 10 minuti<br/><br/>✔️ Colore di lunga durata: fino a 6 settimane<br/><br/>✔️ Protegge i capelli, senza ammoniaca<br/><br/>✔️ Facile e veloce, senza sforzo da casa<br/></p>",
+            "page": ""
+          }
+        },
+        "tab_weA9tp": {
+          "type": "tab",
+          "settings": {
+            "title": "🧪 Ingredienti chiave e i loro benefici",
+            "content": "<p>💧 <strong>Acqua</strong>: Idrata e facilita l’applicazione.<br/><br/>🍊 <strong>Vitamina C</strong>: Antiossidante, protegge e illumina la pelle.<br/><br/>🌱 <strong>Squalano</strong>: Idrata in profondità e ripara la barriera cutanea.<br/><br/>🌿 <strong>Olio di jojoba</strong>: Nutre, calma ed equilibra la pelle.<br/><br/>🥥 <strong>Olio di macadamia</strong>: Ricco di acidi grassi, rigenera e protegge.<br/><br/>🍄 <strong>Estratto di Reishi</strong>: Ricco di antiossidanti, rinforza e rivitalizza i capelli.<br/><br/>🌰 <strong>Olio di sesamo nero</strong>: Favorisce la pigmentazione naturale e nutre intensamente.<br/><br/>🌶 <strong>Estratto di zenzero</strong>: Stimola la microcircolazione, rinforza le radici e dona vitalità.<br/><br/>🌼 <strong>Estratto di radice di angelica</strong>: Calma, rinforza e favorisce la crescita dei capelli, prevenendone la caduta.</p><p>🧪 <strong>Qualità e sicurezza</strong>:<br/><br/>✔ Dermatologicamente testato: Tolleranza ottimale per la pelle.</p><p>📦 <strong>Contenuto</strong>: 200 ml</p><p>🌍 <strong>Impegno etico</strong>:<br/><br/>Ingredienti di origine naturale, rispettosi dell’ambiente.</p><p>⚖ <strong>Senza compromessi</strong>:<br/><br/>Componenti come profumo o propilenglicole sono utilizzati in quantità controllate, senza rischi per la salute.</p><p>📜 <strong>Lista INCI completa</strong>:<br/><br/>Aqua, cetyl alcohol, Pergaal, mineral oil, extract of polygonum multiflorum root, extract of Panax ginseng root, extract of angelica root, glucose derivatives, cocamidopropyl betaine, fragrance, gentle colorants, pH regulators, monoglyceride, mild activator.</p>",
+            "page": ""
+          }
+        },
+        "tab_Er6zgk": {
+          "type": "tab",
+          "settings": {
+            "title": "📜 Come usarlo",
+            "content": "<p><br/>1️⃣ <strong>Fare la schiuma</strong>: Premi il prodotto sulle mani e crea schiuma.<br/><br/>2️⃣ <strong>Applicare</strong>: Distribuisci uniformemente sui capelli asciutti e lascia agire per 10 minuti.<br/><br/>3️⃣ <strong>Risciacquare</strong>: Sciacqua abbondantemente con acqua e scopri il tuo nuovo colore radioso. 💆‍♀️✨</p>",
+            "page": ""
+          }
+        },
+        "tab_GpRxNC": {
+          "type": "tab",
+          "settings": {
+            "title": "✅ Garanzia 30 giorni – Soddisfatto o rimborsato",
+            "content": "<p><br/>Siamo convinti che adorerai <strong>Polra Milano</strong>.<br/><br/>Ma se così non fosse, offriamo la nostra garanzia “Soddisfatto o rimborsato” per 30 giorni.<br/><br/>Provalo senza rischi. Senza impegno, senza stress.<br/></p>",
+            "page": ""
+          }
+        },
+        "tab_ycPqNR": {
+          "type": "tab",
+          "settings": {
+            "title": "📩 Assistenza clienti disponibile 7 giorni su 7",
+            "content": "<p>Hai un dubbio, una domanda o hai bisogno di aiuto?<br/><br/>Il nostro team di assistenza clienti è disponibile 7 giorni su 7, via e-mail o tramite il nostro modulo di contatto.<br/><br/>Veloce, attento e sempre pronto ad aiutarti.</p>",
+            "page": ""
+          }
+        }
+      },
+      "block_order": [
+        "tab_VyLMFa",
+        "tab_weA9tp",
+        "tab_Er6zgk",
+        "tab_GpRxNC",
+        "tab_ycPqNR"
+      ],
+      "custom_css": [
+        ".section-full {padding-top: 0px; padding-bottom: 20px;}"
+      ],
+      "name": "Tabs",
+      "settings": {
+        "full_width": true,
+        "content_size": "medium",
+        "subheading": "",
+        "title": "",
+        "text_alignment": "center",
+        "first_tab_open": false,
+        "background": "",
+        "background_gradient": "",
+        "text_color": "",
+        "heading_color": "",
+        "heading_gradient": ""
+      }
+    },
+    "custom_liquid_7HnYna": {
+      "type": "custom-liquid",
+      "name": "Custom Liquid",
+      "settings": {
+        "full_width": true,
+        "remove_vertical_spacing": false,
+        "remove_horizontal_spacing": false,
+        "liquid": "<div id='ss-product-videos'></div>",
+        "background": "",
+        "background_gradient": "",
+        "text_color": ""
+      }
+    },
+    "3videos_6E6Gjb": {
+      "type": "3videos",
+      "blocks": {
+        "video_CqKrXA": {
+          "type": "video",
+          "settings": {
+            "video": "shopify://files/videos/video1.mp4",
+            "video_url": "https://www.youtube.com/watch?v=_9VUPq3SxOc",
+            "modal_heading": "<h4>Modal Heading</h4>",
+            "modal_text": "<p>Modal Text</p>"
+          }
+        },
+        "video_DHzqdP": {
+          "type": "video",
+          "settings": {
+            "video_url": "https://www.youtube.com/watch?v=_9VUPq3SxOc",
+            "modal_heading": "<h4>Modal Heading</h4>",
+            "modal_text": "<p>Modal Text</p>"
+          }
+        },
+        "video_DHRrJw": {
+          "type": "video",
+          "settings": {
+            "video_url": "https://www.youtube.com/watch?v=_9VUPq3SxOc",
+            "modal_heading": "<h4>Modal Heading</h4>",
+            "modal_text": "<p>Modal Text</p>"
+          }
+        }
+      },
+      "block_order": [
+        "video_CqKrXA",
+        "video_DHzqdP",
+        "video_DHRrJw"
+      ],
+      "name": "SS - Product Videos",
+      "settings": {
+        "videos_position": "above_description",
+        "use_metafield": false,
+        "heading": "<p>Polra Milano e te</p>",
+        "heading_custom": false,
+        "heading_font": "josefin_sans_n4",
+        "heading_size": 18,
+        "heading_size_mobile": 18,
+        "heading_height": 130,
+        "heading_align": "center",
+        "heading_align_mobile": "center",
+        "slider_view": 3,
+        "slider_view_mobile": 3,
+        "slider_gap": 16,
+        "slider_gap_mobile": 16,
+        "slider_mt": 20,
+        "card_radius": 10,
+        "card_border_thickness": 0,
+        "card_shadow": true,
+        "video_ratio": "portrait",
+        "video_ratio_mobile": "portrait",
+        "video_overlay": 0.3,
+        "icon_size": 34,
+        "icon_size_mobile": 34,
+        "icon_border_thickness": 1,
+        "icon_position_mobile": "bottom_left",
+        "icon_position": "bottom_left",
+        "hide_icon": false,
+        "arrow_size": 35,
+        "arrow_size_mobile": 35,
+        "arrow_radius": 5,
+        "arrow_border_thickness": 0,
+        "arrow_hover_shadow": true,
+        "arrow_show_desktop": true,
+        "arrow_show_mobile": true,
+        "show_content": true,
+        "modal_width": 70,
+        "modal_width_mobile": 95,
+        "modal_padding_vertical": 0,
+        "modal_padding_vertical_mobile": 0,
+        "modal_padding_horizontal": 0,
+        "modal_padding_horizontal_mobile": 0,
+        "modal_radius": 16,
+        "modal_border_thickness": 0,
+        "modal_overlay": 50,
+        "close_size": 42,
+        "close_size_mobile": 42,
+        "close_radius": 8,
+        "close_border_thickness": 0,
+        "buttons_size": 48,
+        "buttons_size_mobile": 48,
+        "buttons_radius": 8,
+        "buttons_border_thickness": 0,
+        "modal_video_radius": 0,
+        "modal_video_border_thickness": 0,
+        "modal_video_ratio": "portrait",
+        "modal_video_ratio_mobile": "portrait",
+        "modal_heading_custom": false,
+        "modal_heading_font": "josefin_sans_n4",
+        "modal_heading_size": 28,
+        "modal_heading_size_mobile": 28,
+        "modal_heading_height": 130,
+        "modal_heading_align": "center",
+        "modal_heading_align_mobile": "center",
+        "modal_text_custom": false,
+        "modal_text_font": "josefin_sans_n4",
+        "modal_text_size": 16,
+        "modal_text_size_mobile": 16,
+        "modal_text_height": 130,
+        "modal_text_align": "center",
+        "modal_text_align_mobile": "center",
+        "modal_text_mt": 16,
+        "card_bg_color": "#FFFFFF",
+        "card_border_color": "#000000",
+        "card_shadow_color": "#000000",
+        "video_overlay_color": "#000000",
+        "icon_bg_color": "#000000",
+        "icon_border_color": "#FFFFFF",
+        "icon_color": "#FFFFFF",
+        "arrow_bg_color": "#FFFFFF",
+        "arrow_bg_hover_color": "#FFFFFF",
+        "arrow_border_color": "#000000",
+        "arrow_border_hover_color": "#000000",
+        "arrow_icon_color": "#1c1c1c",
+        "arrow_icon_hover_color": "#1c1c1c",
+        "modal_bg_color": "#FFFFFF",
+        "modal_border_color": "#000000",
+        "close_bg_color": "#FFFFFF",
+        "close_border_color": "#000000",
+        "close_icon_color": "#FFFFFF",
+        "buttons_bg_color": "#FFFFFF",
+        "buttons_border_color": "#000000",
+        "buttons_icon_color": "#FFFFFF",
+        "modal_video_border_color": "#000000",
+        "modal_content_bg_color": "#FFFFFF",
+        "modal_content_border_color": "#000000",
+        "modal_heading_color": "#000000",
+        "modal_text_color": "#000000",
+        "heading_color": "#000000",
+        "background_color": "#FFFFFF",
+        "background_gradient": "",
+        "border_color": "#000000",
+        "margin_top": 0,
+        "margin_bottom": 0,
+        "padding_top": 20,
+        "padding_bottom": 20,
+        "padding_horizontal": 0,
+        "padding_horizontal_mobile": 0,
+        "border_thickness": 0,
+        "lazy": true
+      }
+    },
     "faq": {
       "type": "faq",
       "blocks": {
@@ -548,6 +777,9 @@
     "slideshow_cK33kn",
     "multi_column_D4q9Pr",
     "featured_product_QzkEVp",
+    "tabs_haDBGV",
+    "custom_liquid_7HnYna",
+    "3videos_6E6Gjb",
     "faq"
   ]
 }
