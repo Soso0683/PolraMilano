@@ -446,6 +446,12 @@
           "settings": {
             "liquid": "{% assign now_s = 'now' | date: '%s' %}\n{% assign tl2id = 'tl2-' | append: now_s %}\n\n<div id=\"{{ tl2id }}\" class=\"tl2de\" data-ship=\"2\">\n  <div class=\"tl2de__line\" aria-hidden=\"true\"></div>\n\n  <!-- Étape 1 -->\n  <div class=\"tl2de__step\">\n    <div class=\"tl2de__dot\">\n      <img class=\"tl2de__icon\"\n           src=\"https://cdn.shopify.com/s/files/1/0915/5123/6475/files/Capture_d_ecran_2025-08-10_054315_ca3eda7c-c44f-4188-a770-740919ab85d4.webp?v=1754948644\"\n           alt=\"Ordinato\">\n    </div>\n    <div class=\"tl2de__date\" data-role=\"order\">–</div>\n    <div class=\"tl2de__label\">Ordine</div>\n  </div>\n\n  <!-- Étape 2 -->\n  <div class=\"tl2de__step\">\n    <div class=\"tl2de__dot\">\n      <img class=\"tl2de__icon\"\n           src=\"https://cdn.shopify.com/s/files/1/0915/5123/6475/files/Capture_d_ecran_2025-08-10_054424.webp?v=1754948735\"\n           alt=\"Spedito\">\n    </div>\n    <div class=\"tl2de__date\" data-role=\"ship\">–</div>\n    <div class=\"tl2de__label\">Spedito</div>\n  </div>\n</div>\n\n<style>\n  /* Scope par ID */\n  #{{ tl2id }}.tl2de{\n    --dot: 22px;\n    --icon: 28px;\n    --line: 3px;\n    --edge: 18px;\n    --fs-date: 13px;\n    --fs-label: 12px;\n    --black: #111;\n\n    color:#111; font-family:inherit;\n    display:grid; grid-template-columns:repeat(2, 1fr);\n    align-items:start; justify-items:center;\n    gap:0; position:relative;\n    margin: 6px 0;\n  }\n\n  /* Barre horizontale */\n  #{{ tl2id }} .tl2de__line{\n    position:absolute;\n    left:calc(var(--dot)/2 + var(--edge));\n    right:calc(var(--dot)/2 + var(--edge));\n    top:calc(var(--dot)/2 - var(--line)/2);\n    height:var(--line); background:var(--black);\n    z-index:0;\n  }\n\n  /* Étapes */\n  #{{ tl2id }} .tl2de__step{\n    display:flex; flex-direction:column;\n    align-items:center; text-align:center;\n  }\n\n  /* Rond */\n  #{{ tl2id }} .tl2de__dot{\n    width:var(--dot); height:var(--dot);\n    border-radius:50%;\n    background:var(--black);\n    display:grid; place-items:center;\n    overflow:hidden; position:relative;\n    z-index:1;\n  }\n\n  /* Logo */\n  #{{ tl2id }} .tl2de__icon{\n    width:var(--icon); height:var(--icon);\n    object-fit:contain; display:block;\n  }\n\n  /* Date */\n  #{{ tl2id }} .tl2de__date{\n    margin-top:10px;\n    font-weight:700;\n    font-size:var(--fs-date);\n  }\n\n  /* Libellé */\n  #{{ tl2id }} .tl2de__label{\n    font-size:var(--fs-label);\n    color:#5e5e5e;\n    margin-top:2px;\n  }\n\n  /* Responsive */\n  @media (max-width:600px){\n    #{{ tl2id }}.tl2de{\n      --dot: 45px;\n      --icon: 30px;\n      --fs-date: 15px;\n      --fs-label: 11px;\n      --edge: 14px;\n    }\n  }\n</style>\n\n<script>\n(function(){\n  const root = document.getElementById('{{ tl2id }}'); \n  if(!root) return;\n\n  const ship = +root.dataset.ship || 2;\n  const today = new Date();\n  const addDays = (d,n)=>{ const x=new Date(d); x.setDate(x.getDate()+n); return x; };\n\n  // Abbreviazioni IT\n  const MONTH_ABBR = ['gen.', 'feb.', 'mar.', 'apr.', 'mag.', 'giu.', 'lug.', 'ago.', 'set.', 'ott.', 'nov.', 'dic.'];\n\n  function fmtAbbrev(date){\n    const d = new Date(date);\n    const day = new Intl.DateTimeFormat('it-IT', { day:'numeric' }).format(d);\n    const abbr = MONTH_ABBR[d.getMonth()];\n    return `${day} ${abbr}`;\n  }\n\n  root.querySelector('[data-role=\"order\"]').textContent = fmtAbbrev(today);\n  root.querySelector('[data-role=\"ship\"]').textContent  = fmtAbbrev(addDays(today, ship));\n})();\n</script>"
           }
+        },
+        "liquid_j8Pqqf": {
+          "type": "liquid",
+          "settings": {
+            "liquid": ""
+          }
         }
       },
       "block_order": [
@@ -461,7 +467,8 @@
         "buy_buttons_U3GiG9",
         "liquid_Fd7U3y",
         "liquid_fPiU8A",
-        "liquid_9qpQ4f"
+        "liquid_9qpQ4f",
+        "liquid_j8Pqqf"
       ],
       "name": "Featured product",
       "settings": {
