@@ -715,6 +715,125 @@
         "lazy": true
       }
     },
+    "rich_text_yXaiyU": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_3EYqbW": {
+          "type": "heading",
+          "settings": {
+            "text": "Ingredienti e i loro benefici",
+            "heading_tag": "h2",
+            "text_color": "",
+            "gradient": ""
+          }
+        }
+      },
+      "block_order": [
+        "heading_3EYqbW"
+      ],
+      "custom_css": [
+        ".section-full {padding-top: 0px; padding-bottom: 30px;}"
+      ],
+      "name": "Rich text",
+      "settings": {
+        "full_width": true,
+        "content_width": "small",
+        "text_position": "center",
+        "background": "",
+        "background_gradient": "",
+        "text_color": ""
+      }
+    },
+    "multi_column_QnYRXq": {
+      "type": "multi-column",
+      "blocks": {
+        "item_MWpcgR": {
+          "type": "item",
+          "settings": {
+            "image": "shopify://shop_images/mushroom-2943629_1280.jpg",
+            "column_size": "3",
+            "title": "Estratto di fungo Reishi",
+            "heading_tag": "h4",
+            "content": "<p>Ricco di antiossidanti, rinforza il cuoio capelluto e rivitalizza i capelli dalla radice.</p>",
+            "link_url": "",
+            "link_text": "",
+            "link_style": "link"
+          }
+        },
+        "item_bJ3RxY": {
+          "type": "item",
+          "settings": {
+            "image": "shopify://shop_images/ginger-356104_1280.jpg",
+            "column_size": "3",
+            "title": "Estratto di zenzero",
+            "heading_tag": "h4",
+            "content": "<p>Stimola la microcircolazione e dona vitalità ai capelli.</p>",
+            "link_url": "",
+            "link_text": "",
+            "link_style": "link"
+          }
+        },
+        "item_JR9nJF": {
+          "type": "item",
+          "settings": {
+            "image": "shopify://shop_images/ChatGPT_Image_28_mai_2025_14_19_14.png",
+            "column_size": "3",
+            "title": "Saponine naturali",
+            "heading_tag": "h4",
+            "content": "<p>Purificano delicatamente il cuoio capelluto e migliorano l’assorbimento degli attivi.</p>",
+            "link_url": "",
+            "link_text": "",
+            "link_style": "link"
+          }
+        },
+        "item_8UiibK": {
+          "type": "item",
+          "settings": {
+            "image": "shopify://shop_images/sesamenoir.png",
+            "column_size": "3",
+            "title": "Olio di sesamo nero",
+            "heading_tag": "h4",
+            "content": "<p>Nutre intensamente e favorisce la pigmentazione naturale dei capelli.</p>",
+            "link_url": "",
+            "link_text": "",
+            "link_style": "link"
+          }
+        },
+        "item_B7qCfG": {
+          "type": "item",
+          "settings": {
+            "image": "shopify://shop_images/foti.png",
+            "column_size": "3",
+            "title": "Estratto di Fo-Ti",
+            "heading_tag": "h4",
+            "content": "<p>Conosciuto per stimolare la crescita dei capelli e ritardare la comparsa dei capelli bianchi.</p>",
+            "link_url": "",
+            "link_text": "",
+            "link_style": "link"
+          }
+        }
+      },
+      "block_order": [
+        "item_MWpcgR",
+        "item_bJ3RxY",
+        "item_JR9nJF",
+        "item_8UiibK",
+        "item_B7qCfG"
+      ],
+      "name": "Multi-column",
+      "settings": {
+        "full_width": true,
+        "stack_on_mobile": false,
+        "gap": "medium",
+        "text_alignment": "center",
+        "subheading": "",
+        "title": "",
+        "content": "",
+        "background": "",
+        "background_gradient": "",
+        "text_color": ""
+      }
+    },
     "faq": {
       "type": "faq",
       "blocks": {
@@ -782,6 +901,8 @@
     "tabs_haDBGV",
     "custom_liquid_7HnYna",
     "3videos_6E6Gjb",
+    "rich_text_yXaiyU",
+    "multi_column_QnYRXq",
     "faq"
   ]
 }
