@@ -178,6 +178,35 @@
         "overlay_opacity": 30
       }
     },
+    "rich_text_fbqinW": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_cPmVzt": {
+          "type": "heading",
+          "settings": {
+            "text": "Le nostre clienti lo dicono meglio",
+            "heading_tag": "h3",
+            "text_color": "",
+            "gradient": ""
+          }
+        }
+      },
+      "block_order": [
+        "heading_cPmVzt"
+      ],
+      "custom_css": [
+        ".section-full {padding-top: 30px; padding-bottom: 0px;}"
+      ],
+      "name": "Rich text",
+      "settings": {
+        "full_width": true,
+        "content_width": "small",
+        "text_position": "center",
+        "background": "",
+        "background_gradient": "",
+        "text_color": ""
+      }
+    },
     "faq": {
       "type": "faq",
       "blocks": {
@@ -238,6 +267,7 @@
     "slideshow_RzLrYa",
     "rich_text_8rkqJa",
     "video_HUHzPE",
+    "rich_text_fbqinW",
     "faq"
   ]
 }
