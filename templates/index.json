@@ -820,6 +820,9 @@
         "item_8UiibK",
         "item_B7qCfG"
       ],
+      "custom_css": [
+        ".section-full {padding-top: 0px; padding-bottom: 0px;}"
+      ],
       "name": "Multi-column",
       "settings": {
         "full_width": true,
