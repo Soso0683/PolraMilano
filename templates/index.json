@@ -245,7 +245,7 @@
         "transition_type": "fade_with_text",
         "autoplay": false,
         "cycle_speed": 6,
-        "background": "#F2F2F2",
+        "background": "#f2f2f2",
         "background_gradient": ""
       }
     },
@@ -444,7 +444,7 @@
       "name": "Featured product",
       "settings": {
         "full_width": true,
-        "product": "",
+        "product": "polra-milano",
         "desktop_media_width": 55,
         "desktop_media_layout": "carousel_thumbnails_left",
         "mobile_media_size": "expanded",
