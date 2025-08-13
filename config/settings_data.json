@@ -36,6 +36,7 @@
     "product_color_display": "swatch",
     "product_info_alignment": "start",
     "cart_icon": "shopping_basket",
+    "favicon": "shopify://shop_images/Votre_texte_de_paragraphe_5_7bd9f61b-8615-4596-9b84-d4dce347497f.png",
     "checkout_accent_color": "#f0c417",
     "checkout_button_color": "#1a1a1a",
     "content_for_index": [],
